@@ -112,6 +112,6 @@
       "acc": 41.86
     }
   },
-  "adapter": "outputs/lora-adapter",
+  "adapter": null,
   "seconds": 335.9
 }

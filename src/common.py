@@ -76,14 +76,19 @@ _CYR2LAT = str.maketrans({"А": "A", "В": "B", "С": "C", "Д": "D", "Е": "E"}
 
 def extract_letter(pred: str, options: dict[str, str]) -> str | None:
     """Достаёт букву варианта из ответа модели (аналог can_infer из MMBench)."""
-    p = pred.strip().translate(_CYR2LAT)
+    p = pred.strip()
     letters = [k for k in options]
     # 1) ответ начинается с буквы: "B", "B.", "B) ...", "(B)"
-    m = re.match(r"^\(?([A-E])(?:[\s.):,]|$)", p)
+    m = re.match(r"^\(?([A-E])(?:[\s.):,*]|$)", p)
     if m and m.group(1) in letters:
         return m.group(1)
-    # 2) ровно одна отдельно стоящая буква среди допустимых
-    found = {c for c in re.findall(r"(?<![A-Za-z])([A-E])(?![A-Za-z])", p) if c in letters}
+    # 1б) кириллические двойники («А.», «В)») — только с точкой/скобкой: «В комнате…» — это предлог
+    m = re.match(r"^\(?([АВСДЕ])(?:[.):]|$)", p)
+    if m and m.group(1).translate(_CYR2LAT) in letters:
+        return m.group(1).translate(_CYR2LAT)
+    # 2) ровно одна отдельно стоящая латинская буква среди допустимых. Соседей проверяем по любым буквам,
+    # включая кириллицу, чтобы не ловить буквы внутри слов
+    found = {c for c in re.findall(r"(?<![^\W\d_])([A-E])(?![^\W\d_])", p) if c in letters}
     if len(found) == 1:
         return found.pop()
     # 3) совпадение по тексту варианта

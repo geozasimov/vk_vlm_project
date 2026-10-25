@@ -21,9 +21,9 @@
   },
   "Qwen3-VL-2B, без дообучения": {
     "gqa": 41.09,
-    "mmbench": 65.65,
+    "mmbench": 66.51,
     "gqa_relaxed": 41.31,
-    "mmbench_vanilla": 74.55,
+    "mmbench_vanilla": 74.58,
     "source": "ours"
   },
   "Qwen3-VL-2B + LoRA (наша)": {

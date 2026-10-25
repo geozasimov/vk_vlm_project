@@ -1,13 +1,13 @@
 {
   "n_rows": 3910,
   "n_questions": 1045,
-  "circular_acc": 65.65,
-  "vanilla_acc": 74.55,
-  "unparsed_rate": 5.04,
+  "circular_acc": 66.51,
+  "vanilla_acc": 74.58,
+  "unparsed_rate": 6.01,
   "circular_by_l2": {
     "attribute_reasoning": {
       "n": 185,
-      "acc": 64.86
+      "acc": 66.49
     },
     "coarse_perception": {
       "n": 288,
@@ -15,11 +15,11 @@
     },
     "finegrained_perception (cross-instance)": {
       "n": 128,
-      "acc": 55.47
+      "acc": 57.81
     },
     "finegrained_perception (instance-level)": {
       "n": 255,
-      "acc": 64.31
+      "acc": 65.49
     },
     "logic_reasoning": {
       "n": 79,
@@ -33,7 +33,7 @@
   "circular_by_category": {
     "action_recognition": {
       "n": 51,
-      "acc": 88.24
+      "acc": 90.2
     },
     "attribute_comparison": {
       "n": 33,
@@ -41,15 +41,15 @@
     },
     "attribute_recognition": {
       "n": 60,
-      "acc": 73.33
+      "acc": 75.0
     },
     "celebrity_recognition": {
       "n": 81,
-      "acc": 75.31
+      "acc": 77.78
     },
     "function_reasoning": {
       "n": 77,
-      "acc": 75.32
+      "acc": 77.92
     },
     "future_prediction": {
       "n": 36,
@@ -93,7 +93,7 @@
     },
     "physical_property_reasoning": {
       "n": 63,
-      "acc": 34.92
+      "acc": 36.51
     },
     "physical_relation": {
       "n": 20,
@@ -105,7 +105,7 @@
     },
     "spatial_relationship": {
       "n": 44,
-      "acc": 22.73
+      "acc": 27.27
     },
     "structuralized_imagetext_understanding": {
       "n": 43,

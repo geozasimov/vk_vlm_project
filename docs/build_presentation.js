@@ -18,7 +18,7 @@ const st = read(path.join(ROOT, "data/processed/stats.json")) || { by_source: {}
 const inf = read(path.join(R, "inference.json")) || {};
 const zub = read(path.join(R, "zeroshot/mmbench_dev_upper_bound.json")) || {};
 const AUTHOR = "Засимов Георгий Алексеевич";
-const REPO = process.env.REPO_URL || "github.com/…/vk-vlm-ru-project";
+const REPO = process.env.REPO_URL || "репозиторий проекта на GitHub";
 
 const MIN = tc.train_minutes ? `${Math.round(tc.train_minutes)} мин` : "—";
 const f1 = (x) => (x === undefined || x === null ? "—" : (Math.round(x * 10) / 10).toFixed(1));
@@ -203,14 +203,14 @@ if (fs.existsSync(logPath)) {
     valAxisLineShow: false, catAxisLabelRotate: 0, valAxisMinVal: 0,
   });
 }
-const stats6 = [[`${tc.train_minutes || "—"} мин`, "одна эпоха, " + (tc.steps || "—") + " шагов"],
+const stats6 = [[`${tc.train_minutes || "—"} мин`, "одна эпоха, шагов оптимизатора: " + (tc.steps || "—")],
   [`${tc.max_mem_gb || "—"} ГБ`, "пик видеопамяти"], [`${tc.train_examples || st.total || "—"}`, "обучающих примеров"]];
 stats6.forEach(([n, l], i) => {
   const y = 1.2 + i * 1.2;
   txt(s, n, { x: 6.4, y, w: 3.1, h: 0.6, fontSize: 30, bold: true, color: C.text2, fontFace: THEME.headFontFace });
   txt(s, l, { x: 6.4, y: y + 0.6, w: 3.1, h: 0.4, fontSize: 13, color: INK2 });
 });
-s.addNotes("Ключевой трюк по памяти: логиты по словарю 152k считаются только на позициях ответа. Пик памяти упал с 7.8 до 6.4 ГБ, скорость выросла вдвое.");
+s.addNotes("Ключевой трюк по памяти: логиты по словарю 152k считаются только на позициях ответа. Первый запуск без этого упал с OOM; на 90-м шаге пик памяти стал 6.6 ГБ вместо 7.8, скорость выросла вдвое (2.5 → 4.9 примера/с).");
 
 // ---------------------------------------------------------------- 7–8. результаты
 pres.addSection({ title: "Результаты" });

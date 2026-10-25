@@ -68,6 +68,8 @@ def main():
     ap.add_argument("--adapter", default=None)
     ap.add_argument("--batch-size", type=int, default=8)
     ap.add_argument("--limit", type=int, default=None, help="для отладки: первые N записей")
+    ap.add_argument("--rescore", action="store_true",
+                    help="не генерировать: заново извлечь буквы из сохранённых ответов и пересчитать метрики")
     args = ap.parse_args()
 
     items, ds = load_mmbench()
@@ -82,6 +84,20 @@ def main():
         for line in preds_path.open(encoding="utf-8"):
             r = json.loads(line)
             done[r["index"]] = r
+
+    if args.rescore:
+        old = json.loads((out_dir / f"mmbench_{suffix}_metrics.json").read_text(encoding="utf-8"))
+        with preds_path.open("w", encoding="utf-8") as f:
+            for it in items:
+                r = done[it["index"]]
+                r["letter"] = extract_letter(r["pred"], it["options"])
+                r["correct"] = int(r["letter"] == it["answer"])
+                f.write(json.dumps(r, ensure_ascii=False) + "\n")
+        metrics = summarize([done[it["index"]] for it in items])
+        metrics.update(adapter=args.adapter, seconds=old.get("seconds"))
+        save_json(metrics, out_dir / f"mmbench_{suffix}_metrics.json")
+        print(json.dumps({k: metrics[k] for k in ("n_questions", "circular_acc", "vanilla_acc", "unparsed_rate")}))
+        return
     todo = [it for it in items if it["index"] not in done]
     print(f"{len(items)} записей, уже готово {len(done)}, осталось {len(todo)}")
 
