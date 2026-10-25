@@ -18,7 +18,7 @@ const st = read(path.join(ROOT, "data/processed/stats.json")) || { by_source: {}
 const inf = read(path.join(R, "inference.json")) || {};
 const zub = read(path.join(R, "zeroshot/mmbench_dev_upper_bound.json")) || {};
 const AUTHOR = "Засимов Георгий Алексеевич";
-const REPO = process.env.REPO_URL || "репозиторий проекта на GitHub";
+const REPO = process.env.REPO_URL || "github.com/geozasimov/vk_vlm_project";
 
 const MIN = tc.train_minutes ? `${Math.round(tc.train_minutes)} мин` : "—";
 const f1 = (x) => (x === undefined || x === null ? "—" : (Math.round(x * 10) / 10).toFixed(1));

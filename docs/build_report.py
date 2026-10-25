@@ -16,6 +16,7 @@ from render import html_to_pdf, to_docx, to_html  # noqa: E402
 R = ROOT / "results"
 FIG = R / "figures"
 AUTHOR = "Засимов Георгий Алексеевич"
+REPO = "github.com/geozasimov/vk_vlm_project"
 
 
 def j(path):
@@ -48,7 +49,7 @@ src = st["by_source"]
 
 title = "Компактная русскоязычная визуально-языковая модель на открытых данных VK"
 subtitle = (f"Qwen3-VL-2B-Instruct + LoRA, дообученная на датасетах deepvk на одной GPU 8 ГБ · {AUTHOR} · "
-            "октябрь 2026")
+            f"октябрь 2026 · код и адаптер: {REPO}")
 
 blocks = [
     ("h2", "Кратко"),
@@ -307,6 +308,7 @@ blocks += [
             "модель на 4B (Qwen3-VL-4B в 4-битной QLoRA), абляции по доле MC-аугментации."]),
 
     ("h2", "9. Воспроизведение"),
+    ("p", f"Весь код, обученный адаптер, предсказания и метрики лежат в репозитории **{REPO}**."),
     ("table", {"head": ["Шаг", "Команда"],
                "rows": [["Окружение", "`pip install torch==2.11.0 torchvision==0.26.0 --index-url "
                                       "https://download.pytorch.org/whl/cu128` и `pip install -r requirements.txt`"],
