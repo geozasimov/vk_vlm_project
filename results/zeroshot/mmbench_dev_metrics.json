@@ -1,0 +1,117 @@
+{
+  "n_rows": 3910,
+  "n_questions": 1045,
+  "circular_acc": 65.65,
+  "vanilla_acc": 74.55,
+  "unparsed_rate": 5.04,
+  "circular_by_l2": {
+    "attribute_reasoning": {
+      "n": 185,
+      "acc": 64.86
+    },
+    "coarse_perception": {
+      "n": 288,
+      "acc": 80.9
+    },
+    "finegrained_perception (cross-instance)": {
+      "n": 128,
+      "acc": 55.47
+    },
+    "finegrained_perception (instance-level)": {
+      "n": 255,
+      "acc": 64.31
+    },
+    "logic_reasoning": {
+      "n": 79,
+      "acc": 24.05
+    },
+    "relation_reasoning": {
+      "n": 110,
+      "acc": 71.82
+    }
+  },
+  "circular_by_category": {
+    "action_recognition": {
+      "n": 51,
+      "acc": 88.24
+    },
+    "attribute_comparison": {
+      "n": 33,
+      "acc": 48.48
+    },
+    "attribute_recognition": {
+      "n": 60,
+      "acc": 73.33
+    },
+    "celebrity_recognition": {
+      "n": 81,
+      "acc": 75.31
+    },
+    "function_reasoning": {
+      "n": 77,
+      "acc": 75.32
+    },
+    "future_prediction": {
+      "n": 36,
+      "acc": 25.0
+    },
+    "identity_reasoning": {
+      "n": 45,
+      "acc": 88.89
+    },
+    "image_emotion": {
+      "n": 50,
+      "acc": 80.0
+    },
+    "image_quality": {
+      "n": 54,
+      "acc": 51.85
+    },
+    "image_scene": {
+      "n": 102,
+      "acc": 96.08
+    },
+    "image_style": {
+      "n": 52,
+      "acc": 76.92
+    },
+    "image_topic": {
+      "n": 30,
+      "acc": 90.0
+    },
+    "nature_relation": {
+      "n": 47,
+      "acc": 70.21
+    },
+    "object_localization": {
+      "n": 79,
+      "acc": 48.1
+    },
+    "ocr": {
+      "n": 35,
+      "acc": 60.0
+    },
+    "physical_property_reasoning": {
+      "n": 63,
+      "acc": 34.92
+    },
+    "physical_relation": {
+      "n": 20,
+      "acc": 40.0
+    },
+    "social_relation": {
+      "n": 43,
+      "acc": 88.37
+    },
+    "spatial_relationship": {
+      "n": 44,
+      "acc": 22.73
+    },
+    "structuralized_imagetext_understanding": {
+      "n": 43,
+      "acc": 23.26
+    }
+  },
+  "adapter": null,
+  "seconds": 735.8
+}

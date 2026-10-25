@@ -1,0 +1,52 @@
+{
+  "n": 437,
+  "exact_match": 59.95,
+  "relaxed_match": 59.95,
+  "by_structural": {
+    "choose": {
+      "n": 54,
+      "em": 75.93
+    },
+    "compare": {
+      "n": 6,
+      "em": 83.33
+    },
+    "logical": {
+      "n": 70,
+      "em": 84.29
+    },
+    "query": {
+      "n": 225,
+      "em": 42.22
+    },
+    "verify": {
+      "n": 82,
+      "em": 75.61
+    }
+  },
+  "by_semantic": {
+    "attr": {
+      "n": 129,
+      "em": 72.09
+    },
+    "cat": {
+      "n": 25,
+      "em": 52.0
+    },
+    "global": {
+      "n": 10,
+      "em": 40.0
+    },
+    "obj": {
+      "n": 67,
+      "em": 86.57
+    },
+    "rel": {
+      "n": 206,
+      "em": 45.63
+    }
+  },
+  "split": "val",
+  "adapter": "outputs/lora-adapter",
+  "seconds": 31.9
+}

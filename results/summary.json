@@ -1,0 +1,36 @@
+{
+  "deepvk/llava-gemma-2b-lora (3B)": {
+    "gqa": 46.37,
+    "mmbench": 40.19,
+    "source": "published"
+  },
+  "deepvk/llava-saiga-8b (8B)": {
+    "gqa": 51.44,
+    "mmbench": 56.65,
+    "source": "published"
+  },
+  "llava-hf/llava-1.5-7b-hf (7B)": {
+    "gqa": 28.39,
+    "mmbench": 52.25,
+    "source": "published"
+  },
+  "llava-v1.6-mistral-7b-hf (7B)": {
+    "gqa": 6.65,
+    "mmbench": 48.8,
+    "source": "published"
+  },
+  "Qwen3-VL-2B, без дообучения": {
+    "gqa": 41.09,
+    "mmbench": 65.65,
+    "gqa_relaxed": 41.31,
+    "mmbench_vanilla": 74.55,
+    "source": "ours"
+  },
+  "Qwen3-VL-2B + LoRA (наша)": {
+    "gqa": 52.46,
+    "mmbench": 68.71,
+    "gqa_relaxed": 52.69,
+    "mmbench_vanilla": 77.9,
+    "source": "ours"
+  }
+}

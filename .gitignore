@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/hf_cache/
+.hf_cache/
+outputs/checkpoints/
+outputs/base_model_cache/
+.ipynb_checkpoints/
+
+# Итоговый LoRA-адаптер (небольшой, несколько МБ) специально НЕ игнорируется —
+# он часть результата проекта и должен попасть в репозиторий:
+# outputs/lora-adapter/*.safetensors
+
+# локальная копия базовой модели и логи загрузки
+models/
+logs/download.log
+*.part
+
+# картинки train (540 МБ) не коммитим — они восстанавливаются src/download.py + src/prepare_data.py;
+# сами списки примеров (train.jsonl, gqa_val.jsonl, stats.json) остаются в репозитории
+data/processed/gqa_images/
+data/processed/coco_images/
+logs/winget_*.log
+docs/_build/
+logs/
+docs/report.html

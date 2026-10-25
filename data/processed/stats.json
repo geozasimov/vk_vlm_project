@@ -1,0 +1,17 @@
+{
+  "total": 11530,
+  "by_source": {
+    "gqa": 8730,
+    "gqa_mc": 2000,
+    "llava": 800
+  },
+  "val": 437,
+  "args": {
+    "n_images": 6000,
+    "n_val_images": 300,
+    "n_mc": 2000,
+    "n_llava": 800,
+    "llava_max_chars": 1400,
+    "seed": 42
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "n": 12216,
+  "exact_match": 41.09,
+  "relaxed_match": 41.31,
+  "by_structural": {
+    "choose": {
+      "n": 1102,
+      "em": 61.52
+    },
+    "compare": {
+      "n": 571,
+      "em": 57.79
+    },
+    "logical": {
+      "n": 1763,
+      "em": 63.81
+    },
+    "query": {
+      "n": 6578,
+      "em": 21.3
+    },
+    "verify": {
+      "n": 2202,
+      "em": 67.48
+    }
+  },
+  "by_semantic": {
+    "attr": {
+      "n": 5061,
+      "em": 48.19
+    },
+    "cat": {
+      "n": 1115,
+      "em": 27.35
+    },
+    "global": {
+      "n": 157,
+      "em": 47.13
+    },
+    "obj": {
+      "n": 767,
+      "em": 65.97
+    },
+    "rel": {
+      "n": 5116,
+      "em": 33.15
+    }
+  },
+  "split": "testdev",
+  "adapter": null,
+  "seconds": 943.9
+}

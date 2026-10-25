@@ -1,0 +1,18 @@
+{
+  "train": "C:\\Users\\geoza\\study\\vk-vlm-ru-project\\data\\processed\\train.jsonl",
+  "epochs": 1.0,
+  "batch_size": 4,
+  "grad_accum": 4,
+  "lr": 0.0002,
+  "warmup": 0.03,
+  "r": 16,
+  "max_steps": null,
+  "save_every": 200,
+  "out": "C:\\Users\\geoza\\study\\vk-vlm-ru-project\\outputs\\lora-adapter",
+  "seed": 42,
+  "base_model": "C:\\Users\\geoza\\study\\vk-vlm-ru-project\\models\\Qwen3-VL-2B-Instruct",
+  "train_examples": 11530,
+  "steps": 721,
+  "train_minutes": 37.7,
+  "max_mem_gb": 7.34
+}

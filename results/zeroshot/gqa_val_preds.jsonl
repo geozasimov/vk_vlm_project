@@ -1,0 +1,437 @@
+{"id": "06563538", "question": "Перед каким животным стоит мужчина, медведем или слоном?", "answer": "слон", "pred": "слоном", "structural": "choose", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "06563581", "question": "Небо выглядит облачным и голубым?", "answer": "нет", "pred": "да", "structural": "logical", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "11438090", "question": "С какой стороны на картине расположен забор?", "answer": "справа", "pred": "справа", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "0621528", "question": "На каком виде мебели стоит лампа?", "answer": "кофейный столик", "pred": "стол", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "01118966", "question": "Что перед креслом, которое выглядит бежевым и зелёным?", "answer": "диван", "pred": "стол", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "11169446", "question": "В какой части картинки кошка, в верхней или нижней?", "answer": "в нижней", "pred": "нижняя", "structural": "choose", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "12358904", "question": "Лодка в верхней части?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "00948068", "question": "Что на белой стене?", "answer": "мыльница", "pred": "табличка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "12706052", "question": "Какого цвета лодка в океане?", "answer": "синяя", "pred": "белая", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "0240671", "question": "Какое животное лежит в палатке?", "answer": "кот", "pred": "кот", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "0240597", "question": "Шарф внутри палатки?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "04187792", "question": "Кто стоит на лодке посередине?", "answer": "человек", "pred": "человек", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "05641921", "question": "Что полезнее, зефир или лимон?", "answer": "лимон", "pred": "лимон", "structural": "compare", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "12501418", "question": "Синяя машина справа или слева на фотографии?", "answer": "справа", "pred": "слева", "structural": "choose", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "18141249", "question": "Женщина слева или справа от лыжника, который находится слева от мужчины?", "answer": "слева", "pred": "слева", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "1461422", "question": "На изображении есть и дверь, и окно?", "answer": "нет", "pred": "да", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "001008117", "question": "Вы видите поезд или дверь, которые металлические?", "answer": "да", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "001007997", "question": "Видишь какие-нибудь часы или свечи?", "answer": "да", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "01677648", "question": "С какой стороны картины находится белое транспортное средство?", "answer": "справа", "pred": "справа", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "08482732", "question": "Небо выглядит облачным и голубым?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "01670763", "question": "Машина в верхней или в нижней части картинки?", "answer": "в верхней", "pred": "верхняя", "structural": "choose", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "01670748", "question": "Мальчик слева от игрока?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "05456715", "question": "Ты видишь там птиц?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "1826773", "question": "Где на этой фотографии ловец, слева или справа?", "answer": "слева", "pred": "слева", "structural": "choose", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "09305350", "question": "Где находится мужчина?", "answer": "на песке", "pred": "на пляже", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "17990513", "question": "Как называется животное, которое ест траву?", "answer": "жираф", "pred": "гирлянда", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "08420506", "question": "Какой овощ находится на еде с помидором?", "answer": "кукуруза", "pred": "морковь", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "08420496", "question": "Какой овощ находится слева от оливок в центре картинки?", "answer": "кукуруза", "pred": "томат", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "08420520", "question": "Что под пиццей?", "answer": "скатерть", "pred": "тарелка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "08420332", "question": "Ты видишь грибы на еде с помидором?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "16376177", "question": "Кто на велосипеде слева?", "answer": "люди", "pred": "мужчина", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "16376142", "question": "С какой стороны находится сумка?", "answer": "справа", "pred": "справа", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "02719773", "question": "Где установлены жалюзи?", "answer": "на двери", "pred": "на окнах", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "12704996", "question": "Какой предмет одежды с длинными рукавами на картинке?", "answer": "гидрокостюм", "pred": "футболка", "structural": "query", "semantic": "cat", "em": 0, "em_relaxed": 0}
+{"id": "12136154", "question": "Какого цвета, по-твоему, облака?", "answer": "серый", "pred": "серые", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "12111089", "question": "Что лежит на кровати?", "answer": "одеяло", "pred": "собака", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "04804837", "question": "Что делает мужчина?", "answer": "идет", "pred": "дождаться трамвая", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "08879103", "question": "Какой прибор находится справа от подноса?", "answer": "плита", "pred": "табурет", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "08613728", "question": "На каком виде выпечки находится сыр?", "answer": "хлеб", "pred": "тост", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "04953105", "question": "Во что одет человек с ребенком?", "answer": "гидрокостюм", "pred": "куртка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "18864550", "question": "Ты видишь каких-нибудь зебр за маленьким слоном?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "18864721", "question": "Насколько высокая трава, которая не густая?", "answer": "высокая", "pred": "высокая", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "03729847", "question": "Есть ли мужчины справа от девушки с левой стороны?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "03729806", "question": "Есть ли люди справа от мужчины, который катается на дороге?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "03729591", "question": "Волосы светлые или каштановые?", "answer": "каштановые", "pred": "светлые", "structural": "choose", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "03730057", "question": "Какого цвета колёса?", "answer": "белого", "pred": "черные", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "07609483", "question": "Ты видишь слона или льва на изображении?", "answer": "да", "pred": "слон", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "19324888", "question": "Какого цвета жилет?", "answer": "чёрного", "pred": "черный", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "1820446", "question": "Есть ли рабочие или парни?  ", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "1820642", "question": "Кто держит пиццу справа от сосиски?", "answer": "девочка", "pred": "девушка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "1820381", "question": "Что на взрослой девушке?", "answer": "юбка", "pred": "пирожное", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "16162500", "question": "Какой предмет одежды не черный, куртка или шляпа?", "answer": "шляпа", "pred": "шляпа", "structural": "choose", "semantic": "cat", "em": 1, "em_relaxed": 1}
+{"id": "16162545", "question": "Есть ли черные шляпы или перчатки?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "18497181", "question": "Как погода?", "answer": "солнечная", "pred": "солнечная", "structural": "query", "semantic": "global", "em": 1, "em_relaxed": 1}
+{"id": "16210834", "question": "Есть ли рядом с компьютером чашка?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "16211341", "question": "Ты видишь компьютер рядом с чашкой на столе?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "16211313", "question": "Какой тип устройства находится слева от клавиатуры в центре?", "answer": "компьютер", "pred": "монитор", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "16211212", "question": "На картинке есть и коврики для мыши, и столы?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "13631877", "question": "Это внутри помещения?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "global", "em": 1, "em_relaxed": 1}
+{"id": "051001003", "question": "Какой транспорт на дороге?", "answer": "грузовик", "pred": "автомобиль", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "1350580", "question": "Какое животное стоит в поле?", "answer": "жираф", "pred": "гирлянда", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "13376570", "question": "На чем написаны слова?", "answer": "на наклейке", "pred": "Слова написаны на телефоне.", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "13376639", "question": "На какой стороне картинки находится телефон?", "answer": "слева", "pred": "левая", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "13376509", "question": "Цвет наклейки отличается от цвета помады?", "answer": "нет", "pred": "Да", "structural": "compare", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "09946192", "question": "Серебряная машина находится слева от человека, который находится слева от другого человека?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "08264350", "question": "На этом изображении есть и заборы, и слоны?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "14917957", "question": "На чем сидит мужчина слева от игрока?", "answer": "на стуле", "pred": "качалка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "03272979", "question": "Какое животное справа от скамейки из дерева?", "answer": "лошадь", "pred": "собака", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "03273161", "question": "Есть ли окна или стулья?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "07316132", "question": "Какой вид устройства не является размытым?", "answer": "экран", "pred": "мобильный телефон", "structural": "query", "semantic": "cat", "em": 0, "em_relaxed": 0}
+{"id": "07316128", "question": "Какое устройство размытое, телефон или экран?", "answer": "телефон", "pred": "телефон", "structural": "choose", "semantic": "cat", "em": 1, "em_relaxed": 1}
+{"id": "07853227", "question": "На чём сидит старуха, на кровати или на стуле?", "answer": "стул", "pred": "стул", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "05437210", "question": "На картинке есть и трава, и грязь?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "06820075", "question": "Эти волосы выглядят длинными?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "14857490", "question": "Ты думаешь, что контейнер для мусора слева от автобуса бежевый или синий?", "answer": "бежевый", "pred": "синий", "structural": "choose", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "15715234", "question": "Есть ли поезда или окна на фото?", "answer": "да", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "18545836", "question": "Есть ли оранжевые буквы или конусы?", "answer": "да", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "16743674", "question": "Кто носит шлем?", "answer": "отбивающий", "pred": "бейсболист", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "05710716", "question": "Высокий забор кажется низким?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "05710763", "question": "Кто носит туфлю?", "answer": "мужчина", "pred": "мужчина", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "00258287", "question": "Кто носит одежду?", "answer": "парень", "pred": "человек", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "00258240", "question": "Какой тип бытового прибора находится справа от парня?", "answer": "холодильник", "pred": "холодильник", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "17496519", "question": "Грузовик слева?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "17496705", "question": "Ты видишь людей слева от мусорного бака?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "045476", "question": "На фотографии есть и стол, и стул?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "045915", "question": "Кто носит рубашку?", "answer": "девочка", "pred": "мальчик", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "1212799", "question": "Видишь ли ты книги или молотки?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "03272474", "question": "Белое животное держит что?", "answer": "лист", "pred": "бамбук", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "02421927", "question": "На этой фотографии есть зеркало?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "14214206", "question": "В какой части находится сумка?", "answer": "справа", "pred": "внизу", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "14214278", "question": "Вы видите двери или поезда?", "answer": "да", "pred": "двери", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "01509541", "question": "Есть ли чашки или хлеб?", "answer": "да", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "06911808", "question": "Видишь белые мобильные телефоны?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "07700068", "question": "Стул слева или справа от предмета на дне изображения?", "answer": "слева", "pred": "справа", "structural": "choose", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "07700012", "question": "Это какая мебель?", "answer": "стул", "pred": "стул", "structural": "query", "semantic": "cat", "em": 1, "em_relaxed": 1}
+{"id": "07699906", "question": "С какой стороны картинки находится хот-дог?", "answer": "справа", "pred": "справа", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "07700163", "question": "Какой кухонный инвентарь находится справа от ножа?", "answer": "щипцы", "pred": "тарелка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "16861728", "question": "На этом изображении есть и гидрокостюмы, и серфборды?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "19891292", "question": "Какой это вид мебели?", "answer": "стол", "pred": "стол", "structural": "query", "semantic": "cat", "em": 1, "em_relaxed": 1}
+{"id": "19891444", "question": "Какого цвета, по-твоему, эта бутылка?", "answer": "коричневого", "pred": "черная", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "06812017", "question": "Серебристая машина справа на картинке?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "16641562", "question": "Ты видишь какие-нибудь полки справа от экрана ноутбука?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "16641857", "question": "Есть ли камеры под сумкой слева от кружки?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "099416", "question": "Во что одет мальчик?", "answer": "брюки", "pred": "куртка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "06646684", "question": "Что покрыто листьями, которые выглядят желтыми?", "answer": "лоза", "pred": "деревья", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "06646822", "question": "Какого цвета, по твоему мнению, брюки, которые носит этот человек?", "answer": "серые", "pred": "зеленый", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "07786608", "question": "Волосы у мужчины выглядят короткими?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "06882245", "question": "Что это за овощ справа от зеленой сумки?", "answer": "перец", "pred": "помидор", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "14706593", "question": "Доска для серфинга рядом с мужчиной одновременно коричневая и длинная?", "answer": "нет", "pred": "да", "structural": "logical", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "191012892", "question": "Кто присматривает за ребенком?", "answer": "женщина", "pred": "мать", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "191012926", "question": "Женщина справа или слева от людей, несущих серфы?", "answer": "слева", "pred": "слева", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "16902521", "question": "Какого цвета транспортное средство, которое не новое?", "answer": "оранжевое", "pred": "красный", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "16902654", "question": "Женщина держит зонт?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "16902349", "question": "Мужчина слева или справа от фотографа, который держит камеру?", "answer": "слева", "pred": "справа", "structural": "choose", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "04639191", "question": "Кто носит рубашку?", "answer": "мальчики", "pred": "мальчик", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "04639024", "question": "Ты видишь и окна, и машины?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "04638990", "question": "Видишь ли ты окна или машины на фото?", "answer": "да", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "16881274", "question": "Видишь женщин или баттеров там?", "answer": "да", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "19285585", "question": "Кто носит шлем?", "answer": "мальчик", "pred": "мальчик", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "104271", "question": "На чем находится салфетка?", "answer": "на скатерти", "pred": "табуретка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "104593", "question": "Кто ест пиццу?", "answer": "мужчины", "pred": "мужчина", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "104656", "question": "Рубашка полосатая и черная?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "17417708", "question": "Что на мосту?", "answer": "машина", "pred": "дом", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "09963249", "question": "Какая погода?", "answer": "ясная", "pred": "солнечная", "structural": "query", "semantic": "global", "em": 0, "em_relaxed": 0}
+{"id": "05464988", "question": "Что это за транспортное средство, грузовик или автобус?", "answer": "автобус", "pred": "автобус", "structural": "choose", "semantic": "cat", "em": 1, "em_relaxed": 1}
+{"id": "10542185", "question": "Что общего у окна и у крана?", "answer": "цвет", "pred": "цвет", "structural": "compare", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "17587140", "question": "На чем лежит полотенце, на посудомоечной машине или на плите?", "answer": "посудомоечная машина", "pred": "на посудомоечной машине", "structural": "choose", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "1348226", "question": "Кто носит рубашку?", "answer": "девочка", "pred": "женщина", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "02615259", "question": "Высокое дерево за животным?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "04846149", "question": "Что на человеке надето?", "answer": "очки", "pred": "капюшон", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "00526922", "question": "Широкие деревья у забора выглядят зелеными и большими?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "00527056", "question": "Забор возле земли выглядит низким и серым?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "12196679", "question": "Оранжевая сумка слева или справа от ножа в центре фотографии?", "answer": "справа", "pred": "справа", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "12196484", "question": "Видите ли вы какие-либо миски справа от неполной банки?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "12196652", "question": "Сумка белая или оранжевая?", "answer": "оранжевая", "pred": "оранжевая", "structural": "choose", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "11652583", "question": "Какого цвета мотоцикл?", "answer": "оранжевый", "pred": "оранжевый", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "11652661", "question": "Есть ли на этой картинке шлем, который не оранжевый?", "answer": "нет", "pred": "да", "structural": "verify", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "02671681", "question": "На чём лежит куртка?", "answer": "на скамейке", "pred": "на стуле", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "0791033", "question": "Какая еда находится справа от серебряного объекта, который находится на столе?", "answer": "креветки", "pred": "пирожное", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "0791044", "question": "Как ты думаешь, что находится сверху на пицце?", "answer": "креветки", "pred": "мидии", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "13212211", "question": "Кто на мотоцикле, что находится справа от человека?", "answer": "мужчина", "pred": "мужчина", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "03356536", "question": "Кто сидит?", "answer": "судья", "pred": "покемон", "structural": "query", "semantic": "cat", "em": 0, "em_relaxed": 0}
+{"id": "03356527", "question": "Судья справа или слева?", "answer": "справа", "pred": "справа", "structural": "choose", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "14697502", "question": "Какое животное не согнуто?", "answer": "корова", "pred": "зебра", "structural": "query", "semantic": "cat", "em": 0, "em_relaxed": 0}
+{"id": "15294033", "question": "Мясо на бутылке?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "15294422", "question": "На изображении есть и чашки, и миски?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "02110884", "question": "Какого размера самолет, маленький или большой?", "answer": "маленький", "pred": "маленький", "structural": "choose", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "11351951", "question": "На этой картинке есть лошадь?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "16485816", "question": "Какого цвета занавеска справа от него?", "answer": "жёлтая", "pred": "зеленый", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "16485881", "question": "Какого цвета галстук?", "answer": "черного", "pred": "черный", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "19934131", "question": "Как ты думаешь, что держит книги в верхней части картинки?", "answer": "книжная полка", "pred": "шкаф", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "19934506", "question": "На картинке есть и диван, и подушка?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "19934301", "question": "Какой предмет мебели находится слева от книжного шкафа?", "answer": "стул", "pred": "стул", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "19934603", "question": "В какой части находится картина, слева или справа?", "answer": "слева", "pred": "слева", "structural": "choose", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "1412886", "question": "Что находится перед деревьями?", "answer": "столб", "pred": "путь", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "06193429", "question": "Насколько велика шкаф на правой стороне?", "answer": "маленький", "pred": "маленький", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "06193449", "question": "Как называется мебель слева от стеклянного шкафа?", "answer": "буфет", "pred": "шкаф", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "06193468", "question": "Шкаф, который справа от другого шкафа, синий и маленький?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "06193504", "question": "На столешнице есть конверты?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "06193692", "question": "С какой стороны на картинке находится большой прибор?", "answer": "слева", "pred": "справа", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "03996515", "question": "Журнал находится с правой стороны или с левой?", "answer": "с правой", "pred": "правой", "structural": "choose", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "03996457", "question": "Какой вид фастфуда находится слева от злаков?", "answer": "хот-дог", "pred": "батончики", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "08503137", "question": "Серая ограда слева или справа от мужчин?", "answer": "слева", "pred": "слева", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "08123652", "question": "Кто носит сапог?", "answer": "офицер", "pred": "полицейский", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "08123696", "question": "Кто носит шлем?", "answer": "офицер", "pred": "полицейский", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "16584318", "question": "Пол коричневый?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "14650661", "question": "Есть ли либо кошки, либо драконы?", "answer": "да", "pred": "кошки", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "09553604", "question": "Есть ли на изображении красная доска для серфинга?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "09395323", "question": "Насколько большая миска?", "answer": "маленькая", "pred": "маленькая", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "06836517", "question": "Что он носит?", "answer": "куртка", "pred": "куртка", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "16126265", "question": "На чем сидит женщина?", "answer": "скамейка", "pred": "самокат", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "17131532", "question": "Есть коровы или зебры, которые не черные?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "07346317", "question": "Есть ли чёрные зеркала или столы?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "06863992", "question": "Какое животное нарисовано?", "answer": "акула", "pred": "鲨鱼", "structural": "query", "semantic": "cat", "em": 0, "em_relaxed": 0}
+{"id": "03225032", "question": "Женщина слева или справа от лошади возле барьера?", "answer": "слева", "pred": "справа", "structural": "choose", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "07455631", "question": "С какой стороны находятся часы?", "answer": "слева", "pred": "справа", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "07455789", "question": "На чём стоит лампа?", "answer": "тумбочка", "pred": "стол", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "07455801", "question": "Ящик слева?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "09917056", "question": "Какой фрукт справа от теста?", "answer": "апельсин", "pred": "яблоко", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "09917033", "question": "Есть ли отбивающие слева от парня, который справа?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "17442501", "question": "Какой фрукт слева от шоколадных чипсов в центре изображения?", "answer": "черника", "pred": "яблоко", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "19833244", "question": "Кто ударяет по теннисному мячу?", "answer": "женщина", "pred": "женщина", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "19833262", "question": "Кто перед знаком?", "answer": "женщина", "pred": "женщина", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "1010606", "question": "Что в коробке?", "answer": "сено", "pred": "сено", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "00574367", "question": "Что это за место?", "answer": "море", "pred": "Сан-Педро-де-Луис", "structural": "query", "semantic": "global", "em": 0, "em_relaxed": 0}
+{"id": "04312776", "question": "Какой узор у одеяла?", "answer": "клетчатый", "pred": "плетеный", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "04312685", "question": "Плюшевый медведь над подушкой?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "07826527", "question": "Что на мальчике надето?", "answer": "шляпа", "pred": "т-shirt", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "07826524", "question": "Кто носит шляпу?", "answer": "мальчик", "pred": "мальчик", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "06232133", "question": "Мобильный телефон в верхней или в нижней части?", "answer": "в нижней", "pred": "нижняя", "structural": "choose", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "06232033", "question": "Какого цвета, по-твоему, стены?", "answer": "жёлтые", "pred": "желтый", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "18770438", "question": "Как называется предмет мебели справа от человека, слева от которого находится тарелка?", "answer": "диван", "pred": "книга", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "11714609", "question": "Небо выглядит синим и частично облачным?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "07567753", "question": "Что носит собака?", "answer": "кепку", "pred": "кепка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "0089441", "question": "Во что одет человек слева от мужчины?", "answer": "гидрокостюм", "pred": "куртка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "02577542", "question": "Что находится на столе?", "answer": "корзина", "pred": "бананы", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "02577455", "question": "Как ты думаешь, за чем находится оранжевый фрукт?", "answer": "банан", "pred": "банан", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "16140393", "question": "Шляпа выглядит чёрной?", "answer": "нет", "pred": "да", "structural": "verify", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "16140139", "question": "Коричневый хлеб на правой стороне?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "13302150", "question": "Кто носит рубашку?", "answer": "парень", "pred": "не могу определить", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "05186118", "question": "В какой части картинки находятся щетки от кружки, внизу или вверху?", "answer": "внизу", "pred": "внизу", "structural": "choose", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "14187141", "question": "Какой соус на хот-доге?", "answer": "горчица", "pred": "кетчуп", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "14187170", "question": "Какой вид пищи не коричневый?", "answer": "хот-дог", "pred": "хлеб", "structural": "query", "semantic": "cat", "em": 0, "em_relaxed": 0}
+{"id": "00635232", "question": "Какая одежда не бирюзового цвета?", "answer": "костюм", "pred": "зелёная", "structural": "query", "semantic": "cat", "em": 0, "em_relaxed": 0}
+{"id": "10506202", "question": "Поднос справа или слева от женщины, которая носит юбку?", "answer": "слева", "pred": "справа", "structural": "choose", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "10506331", "question": "Бананы справа или слева от женщины, которая стоит на рынке?", "answer": "справа", "pred": "справа", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "00931317", "question": "Штаны кажутся черными?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "13562801", "question": "Какое устройство держит человек в шляпе?", "answer": "камера", "pred": "камера", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "13562710", "question": "Как называется устройство, которое имеет тот же цвет, что и обувь?", "answer": "камера", "pred": "капюшон", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "13562798", "question": "Что держит человек, сидящий на скамейке?", "answer": "камера", "pred": "камера", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "09292754", "question": "На чём лежит планшет?", "answer": "банан", "pred": "банан", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "15387144", "question": "Знак на столбе большой и белый?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "02568097", "question": "Простыни на кровати белого цвета?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "00110348", "question": "На каком виде выпечки лежит хот-дог?", "answer": "булочка", "pred": "батончик", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "00110544", "question": "Какая еда находится слева от сумки?", "answer": "луковое кольцо", "pred": "онион", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "00110553", "question": "Есть ли луковые кольца на подносе, который выглядит красным и черным?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "15800851", "question": "Дверь, которая не маленькая, открыта или закрыта?", "answer": "открыта", "pred": "открыта", "structural": "choose", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "17890958", "question": "Какого цвета пальто?", "answer": "розовый", "pred": "розовое", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "01800854", "question": "Пассажир находится справа от спасательного жилета, который надет на человека? ", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "01800689", "question": "Насколько большой белый трейлер?", "answer": "маленький", "pred": "маленький", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "04316773", "question": "Старик находится слева или справа от компьютера, перед которым находится человек?", "answer": "справа", "pred": "справа", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "11912326", "question": "Как называется мясо, которое на еде с мясом?", "answer": "ветчина", "pred": "хам", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "01647715", "question": "Шорты белые или синие?", "answer": "синие", "pred": "синие", "structural": "choose", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "02660556", "question": "Какого цвета длинное пальто, розового или синего?", "answer": "розового", "pred": "синее", "structural": "choose", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "03578094", "question": "С чем играет женщина слева от собаки, с компьютерной мышью или контроллером от Wii?", "answer": "контроллером от Wii", "pred": "контроллером", "structural": "choose", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "16456866", "question": "Женщина в очках?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "16456892", "question": "Чашка справа от тарелки, на которой лежит вилка?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "16456872", "question": "Есть ли на этой фотографии и вилка, и чашка?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "16975215", "question": "На этом фото есть и дорожные знаки, и машины?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "08243244", "question": "Где на картинке находится теннисная ракетка, внизу или наверху?", "answer": "наверху", "pred": "вверх", "structural": "choose", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "11671040", "question": "Какое транспортное средство находится справа от фургона?", "answer": "такси", "pred": "автомобиль", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "11671077", "question": "Транспортное средство справа от внедорожника, кажется, черное?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "11670581", "question": "Машины справа или слева от желтого такси?", "answer": "слева", "pred": "справа", "structural": "choose", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "16566401", "question": "На чём сидит женщина слева от бутылки?", "answer": "диван", "pred": "кровать", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "16566289", "question": "Какое устройство находится справа от экрана?", "answer": "контроллер", "pred": "телевизор", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "18273206", "question": "На фотографии есть скейтборды или скамейки?", "answer": "да", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "18656774", "question": "На какой стороне картинки апельсины?", "answer": "слева", "pred": "левая", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "17347421", "question": "Что прислонено к стене?", "answer": "доска для серфинга", "pred": "столы", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "16290622", "question": "Человек справа от фрисби в шляпе?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "12264010", "question": "Пасмурное небо оранжевое или серое?", "answer": "серое", "pred": "серое", "structural": "choose", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "12264022", "question": "На картинке есть либо воздушный змей, либо забор?", "answer": "да", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "12264095", "question": "Какого цвета длинный хвост?", "answer": "красный", "pred": "белый", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "02235792", "question": "Колбаса в верхней или нижней части?", "answer": "в нижней", "pred": "нижняя", "structural": "choose", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "04843988", "question": "Люди находятся справа или слева от машины, которая едет по земле?", "answer": "слева", "pred": "слева", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "15476115", "question": "Какого цвета трава?", "answer": "зелёного", "pred": "зеленая", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "15475875", "question": "Что на игроке?", "answer": "штаны", "pred": "бейсбол", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "15475870", "question": "Кто носит штаны?", "answer": "игрок", "pred": "бейсболист", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "15475910", "question": "Какого цвета логотип?", "answer": "белый", "pred": "красный", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "15475883", "question": "Есть ли игроки слева от человека внизу?", "answer": "нет", "pred": "да", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "08548351", "question": "Какое это место?", "answer": "поле", "pred": "Пуэрто-Альберто", "structural": "query", "semantic": "global", "em": 0, "em_relaxed": 0}
+{"id": "19547902", "question": "Кто носит ожерелье?", "answer": "женщина", "pred": "девочка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "19305511", "question": "Мужчина, находящийся слева от короны, носит шляпу?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "19305481", "question": "Синяя рубашка с короткими рукавами?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "05910813", "question": "Что находится на верху еды, покрытой соусом?", "answer": "гриб", "pred": "брокколи", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "05803714", "question": "Что находится за стеной?", "answer": "дерево", "pred": "деревья", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "17134039", "question": "Что находится под стулом, на котором сидит мужчина?", "answer": "одеяла", "pred": "мешок", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "17134061", "question": "Мужчина, который слева от людей, в шортах?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "05400247", "question": "Булочка находится слева или справа от еды на левой стороне?", "answer": "справа", "pred": "справа", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "05390765", "question": "Какое это место?", "answer": "океан", "pred": "море", "structural": "query", "semantic": "global", "em": 0, "em_relaxed": 0}
+{"id": "05390797", "question": "Есть ли на фото забор или велосипед?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "144359", "question": "С какой стороны свеча?", "answer": "слева", "pred": "левая", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "1431578", "question": "Какое устройство большое?", "answer": "телевизор", "pred": "телевизор", "structural": "query", "semantic": "cat", "em": 1, "em_relaxed": 1}
+{"id": "1431355", "question": "На каком предмете мебели стоит бутылка?", "answer": "стол", "pred": "стол", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "09398296", "question": "Какого цвета чашка слева?", "answer": "синего", "pred": "синяя", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "1962302", "question": "Какой прибор с этой трубой?", "answer": "радиатор", "pred": "радиатор", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "07832688", "question": "Насколько большое зеркало?", "answer": "маленькое", "pred": "маленькое", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "17514018", "question": "На этой фотографии есть и шкафчики, и краны?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "17803695", "question": "Какое транспортное средство находится справа от воздушного змея?", "answer": "внедорожник", "pred": "автомобиль", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "01673170", "question": "На фото есть пожарные гидранты или диспенсеры для полотенец?", "answer": "да", "pred": "пожарные гидранты", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "15627000", "question": "Какой предмет мебели находится под раковиной?", "answer": "ящик", "pred": "шкаф", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "17120645", "question": "На картинке есть и одеяло, и подушка?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "17120720", "question": "Лампа на потолке выглядит белой?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "17120483", "question": "Есть ли стул рядом с кроватью?", "answer": "нет", "pred": "да", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "17120640", "question": "Кровать слева или справа от шкафа?", "answer": "справа", "pred": "справа", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "11667027", "question": "Забор выглядит синим?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "11666957", "question": "На изображении есть и окна, и двери?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "08646127", "question": "Машина справа от автобуса зеленая или серебристая?", "answer": "серебристая", "pred": "серебристая", "structural": "choose", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "01170023", "question": "Красная лодка в нижней или верхней части?", "answer": "в нижней", "pred": "нижняя", "structural": "choose", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "17957047", "question": "Женщина слева или справа от бутылки, которая не полная?", "answer": "слева", "pred": "слева", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "10616072", "question": "Как называется предмет одежды для бейсбола?", "answer": "форма", "pred": "кепка", "structural": "query", "semantic": "cat", "em": 0, "em_relaxed": 0}
+{"id": "06269872", "question": "Ты видишь там либо банки, либо монеты?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "04619846", "question": "Серебряные очки находятся слева от чашки?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "04619997", "question": "На картинке есть и тарелки, и чашки?", "answer": "нет", "pred": "да", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "15567924", "question": "Ты видишь черные заборы или шляпы?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "01462665", "question": "Какого цвета пол под туалетом?", "answer": "серый", "pred": "серый", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "10375246", "question": "Какой вид мебели тёмного цвета?", "answer": "стул", "pred": "стул", "structural": "query", "semantic": "cat", "em": 1, "em_relaxed": 1}
+{"id": "00443551", "question": "Контейнеры жёлтые или серебристые?", "answer": "серебристые", "pred": "серебристые", "structural": "choose", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "09311556", "question": "Стул справа или слева от мужчины в джинсах?", "answer": "справа", "pred": "справа", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "05512320", "question": "Рубашка черного цвета?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "03106448", "question": "Какая одежда не белая?", "answer": "фартук", "pred": "черная", "structural": "query", "semantic": "cat", "em": 0, "em_relaxed": 0}
+{"id": "00596312", "question": "Что это за животное?", "answer": "зебра", "pred": "зебра", "structural": "query", "semantic": "cat", "em": 1, "em_relaxed": 1}
+{"id": "12914272", "question": "Женщина слева от мужчины?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "11147881", "question": "Что это за место?", "answer": "тротуар", "pred": "город", "structural": "query", "semantic": "global", "em": 0, "em_relaxed": 0}
+{"id": "17220960", "question": "Воздушные змеи над землёй?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "15709995", "question": "Какого цвета, по-твоему, воздушный змей слева?", "answer": "синий", "pred": "красный", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "07950978", "question": "Простыня слева или справа от тумбочки на правой стороне?", "answer": "слева", "pred": "слева", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "1357897", "question": "С какой стороны фотографии находится черный ящик?", "answer": "справа", "pred": "справа", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "19717697", "question": "Что ведет водитель?", "answer": "автобус", "pred": "автобус", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "19717928", "question": "На чем находится дорожный знак?", "answer": "на фонаре", "pred": "на столбе", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "08139885", "question": "С какой стороны картинки находится большой ковёр?", "answer": "справа", "pred": "справа", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "091005012", "question": "Какого цвета контейнер слева от занавесок?", "answer": "белого", "pred": "белый", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "091004916", "question": "Что находится перед белой раковиной?", "answer": "зеркало", "pred": "стенка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "10318504", "question": "Есть ли шлемы или велосипеды?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "10318496", "question": "На чём сидит мужчина?", "answer": "велосипед", "pred": "велосипед", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "11371629", "question": "Облачное небо одновременно ясное и белое?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "02687943", "question": "Что находится на верхней части холодильника?", "answer": "миска", "pred": "бутылка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "09557248", "question": "Какой предмет мебели не черный?", "answer": "комод", "pred": "стул", "structural": "query", "semantic": "cat", "em": 0, "em_relaxed": 0}
+{"id": "11830893", "question": "Человек на сноуборде, кажется, катается на нем?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "0553170", "question": "На чем стоит чашка?", "answer": "на блюдце", "pred": "тарелка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "0553332", "question": "Какого цвета, по-твоему, цифры?", "answer": "оранжевого", "pred": "красный", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "0553211", "question": "Какое устройство белое?", "answer": "мобильный телефон", "pred": "чашка", "structural": "query", "semantic": "cat", "em": 0, "em_relaxed": 0}
+{"id": "03192023", "question": "Есть ли в этой сцене тонкие помидоры?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "03191828", "question": "Какой овощ на пицце?", "answer": "перец", "pred": "помидор", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "03191937", "question": "Видите ли вы сыр справа от перца, который находится справа от салфетки?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "19416796", "question": "Какого цвета зонт, который держит женщина?", "answer": "розовый", "pred": "красный", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "11304615", "question": "Кто смотрит на часы?", "answer": "мужчина", "pred": "пешеход", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "11487558", "question": "Какой вид мебели не синий?", "answer": "стул", "pred": "стул", "structural": "query", "semantic": "cat", "em": 1, "em_relaxed": 1}
+{"id": "11487157", "question": "Какого цвета тарелки справа?", "answer": "оранжевые", "pred": "оранжевая", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "11487292", "question": "На картинке есть и ложки, и салфетки?", "answer": "да", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "11859193", "question": "Круглая тарелка гладкая и белая?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "04923365", "question": "Есть ли микроволновка или холодильник, которые не черные?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "04923467", "question": "С какой стороны изображения находится картина?", "answer": "справа", "pred": "справа", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "165851", "question": "Где находится зебра?", "answer": "дорога", "pred": "в зоопарке", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "04465361", "question": "Грузовик слева от забора маленький и пустой?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "13436412", "question": "Какое транспортное средство красного цвета?", "answer": "поезд", "pred": "поезд", "structural": "query", "semantic": "cat", "em": 1, "em_relaxed": 1}
+{"id": "00270073", "question": "Перед чем находится здание?", "answer": "деревом", "pred": "улица", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "1058168", "question": "Есть мальчики или женщины?", "answer": "да", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "1058183", "question": "Есть ли какие-то шлемы или велосипеды?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "168221", "question": "Из чего сделана метла?", "answer": "из дерева", "pred": "метла сделана из дерева", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "168111", "question": "Коробка и метла сделаны из одного и того же материала?", "answer": "нет", "pred": "нет", "structural": "compare", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "13124747", "question": "Какой размер плюшевого медведя?", "answer": "большой", "pred": "маленький", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "06296935", "question": "Какое животное перед старым деревом?", "answer": "зебра", "pred": "зебра", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "06296806", "question": "Какого цвета хвост? ", "answer": "черный ", "pred": "белый", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "15515175", "question": "Зеркало деревянное и круглое?", "answer": "да", "pred": "нет", "structural": "logical", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "03520825", "question": "Эта вода синего или белого цвета?", "answer": "синего", "pred": "синий", "structural": "choose", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "1389092", "question": "С какой стороны изображения находится прицеп?", "answer": "слева", "pred": "справа", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "0871190", "question": "Сумка и шкаф разного цвета?", "answer": "да", "pred": "да", "structural": "compare", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "11793754", "question": "Как называется животное, за которым находятся кусты?", "answer": "корова", "pred": "коза", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "16291542", "question": "На этом фото есть одеяло или кровать?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "11983108", "question": "Какой длины волосы у мужчины?", "answer": "короткие", "pred": "длинные", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "11983048", "question": "Что на мужчине надето?", "answer": "рубашка", "pred": "галстук", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "14984768", "question": "Что приковано к красному столбу?", "answer": "знак", "pred": "цепь", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "01611702", "question": "Шина выглядит чёрной и большой?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "13843848", "question": "Что она держит?", "answer": "контроллер", "pred": "контроллер", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "13843874", "question": "Женщина справа от лампы?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "059911", "question": "Есть ли туалеты перед полкой в центре фотографии?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "0510215", "question": "Какая мебель находится за унитазом?", "answer": "полка", "pred": "шкаф", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "02631557", "question": "Есть ли здесь лебеди?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "02631577", "question": "На какой стороне белый лебедь?", "answer": "слева", "pred": "справа", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "04551693", "question": "Какое это место?", "answer": "церковь", "pred": "Хиллсбери", "structural": "query", "semantic": "global", "em": 0, "em_relaxed": 0}
+{"id": "16343679", "question": "На чём стоит бутылка?", "answer": "на прикроватном столике", "pred": "нога", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "16343696", "question": "Какого цвета изголовье?", "answer": "светло-коричневый", "pred": "белое", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "18262539", "question": "Здесь есть будильники или плоскогубцы?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "06640306", "question": "Какое транспортное средство находится слева от машины, которая серебристо-синяя?", "answer": "вагон поезда", "pred": "поезд", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "11578360", "question": "Что делает женщина?", "answer": "читает", "pred": "читает газету", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "11578471", "question": "Есть ли на картинке автомобили или сумки?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "11578353", "question": "С какой стороны женщина, слева или справа?", "answer": "справа", "pred": "справа", "structural": "choose", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "11772376", "question": "Кто носит сандалию?", "answer": "игрок", "pred": "певец", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "09251014", "question": "Где стоит этот мужчина?", "answer": "на парусной лодке", "pred": "на берегу", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "1148759", "question": "На изображении есть лампа или часы?", "answer": "да", "pred": "часы", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "1387016", "question": "Что перед листьями, которые одеты в рубашку?", "answer": "забор", "pred": "дерево", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "1387163", "question": "На листьях перед забором надета рубашка?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "08535381", "question": "Здесь есть либо футболисты, либо стаканы?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "09213880", "question": "На чем сидит птица?", "answer": "ветка", "pred": "ветка", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "10120422", "question": "Что носит человек слева от людей?", "answer": "шарф", "pred": "сумка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "10120338", "question": "Как называются предметы мебели, которые стоят на тротуаре на этом изображении?", "answer": "столы", "pred": "столы", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "01438076", "question": "Какого цвета, по-твоему, футболка, которую носит игрок?", "answer": "черная", "pred": "черная", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "01438218", "question": "Бейсболист размахивает битой?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "01438016", "question": "Есть ли на этом изображении шеф-повара или лыжники?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "01438127", "question": "Есть ли на сцене либо грузовик, либо зеркало?", "answer": "да", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "0523421", "question": "Что человек справа от сумки толкает?", "answer": "коляску", "pred": "коляска", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "0523408", "question": "Во что одет человек слева от коляски?", "answer": "пальто", "pred": "пальто", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "06980646", "question": "Здесь есть палатки или чемоданы?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "14247435", "question": "С какой стороны фото коричневая птица?", "answer": "справа", "pred": "правая", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "09694830", "question": "Шлем, слева от другого шлема, выглядит серебристым?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "19594155", "question": "Перед каким животным находится лошадь?", "answer": "собака", "pred": "лошадь", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "17383432", "question": "Какая одежда белая?", "answer": "платье", "pred": "девочка", "structural": "query", "semantic": "cat", "em": 0, "em_relaxed": 0}
+{"id": "04404182", "question": "На чём находится число?", "answer": "на часах", "pred": "часы", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "12535255", "question": "На какой стороне изображения находится игрок?", "answer": "слева", "pred": "правая", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "091053629", "question": "С каким устройством играет мальчик справа?", "answer": "контроллер", "pred": "телефон", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "03417872", "question": "Как зовут это животное?", "answer": "кот", "pred": "кот", "structural": "query", "semantic": "cat", "em": 1, "em_relaxed": 1}
+{"id": "16499079", "question": "Что носит человек слева от занавеса?", "answer": "фартук", "pred": "мужчина", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "16499076", "question": "Кто носит фартук?", "answer": "женщина", "pred": "женщина", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "16499086", "question": "Кто на кухне?", "answer": "женщина", "pred": "женщина", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "18990728", "question": "На каком животном пятна?", "answer": "собака", "pred": "собака", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "02136420", "question": "Есть заборы справа от него?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "07281227", "question": "Что на даме надето?", "answer": "юбка", "pred": "аппликация", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "07280903", "question": "Какой овощ находится слева от изображения?", "answer": "морковь", "pred": "морковь", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "07281064", "question": "Белая чашка слева или справа от человека внизу на фото?", "answer": "слева", "pred": "слева", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "07280939", "question": "Что носит женщина?", "answer": "платье", "pred": "сумка", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "08317721", "question": "Какого цвета земля?", "answer": "светло-коричневая", "pred": "коричневая", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "01940714", "question": "Есть ли скейтборды или велосипеды, которые не черные?", "answer": "нет", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "02985913", "question": "Какой вид фрукта справа от забора?", "answer": "яблоко", "pred": "яблоко", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "07921679", "question": "Белая корова тянет телегу?", "answer": "нет", "pred": "да", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "001040367", "question": "Какое это место?", "answer": "парковка", "pred": "улица", "structural": "query", "semantic": "global", "em": 0, "em_relaxed": 0}
+{"id": "09708123", "question": "Какой предмет одежды синий?", "answer": "футболка", "pred": "т-shirt", "structural": "query", "semantic": "cat", "em": 0, "em_relaxed": 0}
+{"id": "09708113", "question": "На ней футболка?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "06891185", "question": "Есть тарелка или чашка?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "06891998", "question": "На этом изображении есть тарелка или чашка?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "01199403", "question": "На чём сидит собака, которая находится слева от сумки?", "answer": "велосипед", "pred": "велосипед", "structural": "query", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "04877847", "question": "Есть ли на этом фото автобусы, которые фиолетовые?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "09198239", "question": "Что держит маленький человек?", "answer": "игрушку", "pred": "китайский китайский китайский китайский", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "1330332", "question": "Какого цвета рубашка?", "answer": "синяя", "pred": "голубая", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "14438072", "question": "Машина в нижней части фотографии?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "01755789", "question": "На какой стороне фотографии находится стул?", "answer": "слева", "pred": "левая", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "01755647", "question": "Это в помещении?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "global", "em": 1, "em_relaxed": 1}
+{"id": "01755736", "question": "Какое транспортное средство находится на улице?", "answer": "машина", "pred": "автомобиль", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "16876017", "question": "Самокат слева или справа от мотоцикла, который находится справа?", "answer": "слева", "pred": "слева", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "18214842", "question": "Какой тип транспортного средства не красный?", "answer": "машина", "pred": "автобус", "structural": "query", "semantic": "cat", "em": 0, "em_relaxed": 0}
+{"id": "18214869", "question": "На улице есть автобусы?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "15582977", "question": "Поезд находится слева или справа от машины, расположенной слева?", "answer": "справа", "pred": "справа", "structural": "choose", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "15582993", "question": "Женщина находится слева?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "10113536", "question": "Лампа с левой стороны или с правой?", "answer": "слева", "pred": "левая", "structural": "choose", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "10113570", "question": "Лампа слева или справа от машины?", "answer": "слева", "pred": "справа", "structural": "choose", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "17405015", "question": "Есть ли чашки?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "17405136", "question": "Какого цвета стул, слева от которого стоит чашка?", "answer": "коричневый", "pred": "коричневый", "structural": "query", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "0674418", "question": "Серая грузовик находится справа или слева от автобуса, который справа от светофора?", "answer": "справа", "pred": "слева", "structural": "choose", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "02929943", "question": "С какой стороны изображения женщина?", "answer": "справа", "pred": "левая", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "02929784", "question": "Кто моложе, ребенок или женщина?", "answer": "ребенок", "pred": "ребёнок", "structural": "compare", "semantic": "attr", "em": 0, "em_relaxed": 1}
+{"id": "02729645", "question": "Что на человеке перед мотоциклом?", "answer": "штаны", "pred": "мужчина", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "02729643", "question": "На ком надеты штаны?", "answer": "мужчина", "pred": "человек", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "01713890", "question": "С какой стороны картинки находится американский флаг?", "answer": "слева", "pred": "левая", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "10165091", "question": "Ты видишь салфетки под тарелкой, на которой лежит вилка?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "0846413", "question": "Есть ли компьютеры рядом с монитором слева от флага?", "answer": "нет", "pred": "да", "structural": "verify", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "04941760", "question": "Это одеяло пурпурного цвета?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "04942002", "question": "С какой стороны фотографии находится черная лампа?", "answer": "справа", "pred": "правая", "structural": "query", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "04941548", "question": "Консольный столик слева?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 1, "em_relaxed": 1}
+{"id": "13429601", "question": "Есть ли транспорт на дороге?", "answer": "да", "pred": "да", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "08253995", "question": "Видишь там машины скорой помощи или такси?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "04244620", "question": "В этой фотографии есть и двери, и окна?", "answer": "да", "pred": "да", "structural": "logical", "semantic": "obj", "em": 1, "em_relaxed": 1}
+{"id": "15404442", "question": "Кто носит рубашку?", "answer": "парень", "pred": "мужчина", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "02612080", "question": "Есть ли на этом фото бутылки или сковородки?", "answer": "да", "pred": "нет", "structural": "logical", "semantic": "obj", "em": 0, "em_relaxed": 0}
+{"id": "02462213", "question": "Видишь мотоцикл на дороге?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "061033022", "question": "Ты видишь коврик для мыши справа от устройства рядом с кроватью?", "answer": "нет", "pred": "нет", "structural": "verify", "semantic": "rel", "em": 1, "em_relaxed": 1}
+{"id": "03753048", "question": "Что на мужчине?", "answer": "рюкзак", "pred": "браслет", "structural": "query", "semantic": "rel", "em": 0, "em_relaxed": 0}
+{"id": "161018923", "question": "Сумка сделана из пластика?", "answer": "да", "pred": "нет", "structural": "verify", "semantic": "attr", "em": 0, "em_relaxed": 0}
+{"id": "161018888", "question": "Есть ли тарелка, которая не черная?", "answer": "нет", "pred": "да", "structural": "verify", "semantic": "obj", "em": 0, "em_relaxed": 0}

@@ -1,0 +1,18 @@
+# torch/torchvision ставятся отдельно под CUDA 12.8 (RTX 50xx / Blackwell):
+#   pip install torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cu128
+# Проверено: Windows 11, Python 3.14, RTX 5060 Laptop 8 GB.
+transformers>=5.16.0
+accelerate>=1.0.0
+peft>=0.20.0
+datasets>=5.0.0
+pyarrow>=20.0.0
+pillow>=10.0.0
+requests>=2.32.0
+matplotlib>=3.8.0
+tqdm>=4.66.0
+huggingface_hub>=1.0.0
+num2words>=0.5.13
+gradio>=6.0.0
+# для сборки отчёта и презентации (docs/)
+python-docx>=1.1.0
+python-pptx>=1.0.0

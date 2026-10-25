@@ -1,0 +1,117 @@
+{
+  "n_rows": 3910,
+  "n_questions": 1045,
+  "circular_acc": 68.71,
+  "vanilla_acc": 77.9,
+  "unparsed_rate": 0.0,
+  "circular_by_l2": {
+    "attribute_reasoning": {
+      "n": 185,
+      "acc": 71.89
+    },
+    "coarse_perception": {
+      "n": 288,
+      "acc": 79.51
+    },
+    "finegrained_perception (cross-instance)": {
+      "n": 128,
+      "acc": 61.72
+    },
+    "finegrained_perception (instance-level)": {
+      "n": 255,
+      "acc": 69.41
+    },
+    "logic_reasoning": {
+      "n": 79,
+      "acc": 34.18
+    },
+    "relation_reasoning": {
+      "n": 110,
+      "acc": 66.36
+    }
+  },
+  "circular_by_category": {
+    "action_recognition": {
+      "n": 51,
+      "acc": 92.16
+    },
+    "attribute_comparison": {
+      "n": 33,
+      "acc": 63.64
+    },
+    "attribute_recognition": {
+      "n": 60,
+      "acc": 75.0
+    },
+    "celebrity_recognition": {
+      "n": 81,
+      "acc": 77.78
+    },
+    "function_reasoning": {
+      "n": 77,
+      "acc": 79.22
+    },
+    "future_prediction": {
+      "n": 36,
+      "acc": 25.0
+    },
+    "identity_reasoning": {
+      "n": 45,
+      "acc": 88.89
+    },
+    "image_emotion": {
+      "n": 50,
+      "acc": 84.0
+    },
+    "image_quality": {
+      "n": 54,
+      "acc": 40.74
+    },
+    "image_scene": {
+      "n": 102,
+      "acc": 94.12
+    },
+    "image_style": {
+      "n": 52,
+      "acc": 78.85
+    },
+    "image_topic": {
+      "n": 30,
+      "acc": 93.33
+    },
+    "nature_relation": {
+      "n": 47,
+      "acc": 61.7
+    },
+    "object_localization": {
+      "n": 79,
+      "acc": 55.7
+    },
+    "ocr": {
+      "n": 35,
+      "acc": 71.43
+    },
+    "physical_property_reasoning": {
+      "n": 63,
+      "acc": 50.79
+    },
+    "physical_relation": {
+      "n": 20,
+      "acc": 40.0
+    },
+    "social_relation": {
+      "n": 43,
+      "acc": 83.72
+    },
+    "spatial_relationship": {
+      "n": 44,
+      "acc": 25.0
+    },
+    "structuralized_imagetext_understanding": {
+      "n": 43,
+      "acc": 41.86
+    }
+  },
+  "adapter": "outputs/lora-adapter",
+  "seconds": 335.9
+}
